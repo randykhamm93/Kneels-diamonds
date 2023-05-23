@@ -1,0 +1,35 @@
+.choices {
+  display: flex;
+  justify-content: space-between;
+}
+
+.choices__metals_options {
+  border: 2px dashed blue;
+  padding: 10px;
+  margin: 10px;
+  flex-basis: 20%;
+  border-radius: 1em;
+}
+
+.choices__sizes_options {
+  border: 2px dashed blue;
+  padding: 10px;
+  margin: 10px;
+  padding-bottom: 10px;
+  flex-basis: 20%;
+  border-radius: 1em;
+}
+
+.choices__styles_options {
+  border: 2px dashed blue;
+  padding: 10px;
+  margin: 10px;
+  flex-basis: 20%;
+  border-radius: 1em;
+}
+
+#placeOrder {
+  background-color: crimson;
+  margin-left: 10px;
+  color: white;
+}
